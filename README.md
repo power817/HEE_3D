@@ -35,7 +35,7 @@ HEE_3D is a Mathematica project that chains a bank of ONNX models to iteratively
 
 ## Usage
 
-The `model.m` package defines two public helpers:
+The `model.m` package defines two public helpers: 
 
 - `geogen[lzt_]` — consumes a latent tensor `lzt` and runs it through the 101-stage ONNX chain, returning the accumulated tensor `tgt`.
 - `findlzt[func_]` — numerically estimates an appropriate latent tensor by solving a root-finding problem based on a user-supplied function `func`.
